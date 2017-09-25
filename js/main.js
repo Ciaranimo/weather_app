@@ -52,7 +52,6 @@ $(document).ready(function(){
     }
     else if(cTemp > 10){
       $('body').css('background-image','url(http://chromecastbg.alexmeub.com/images/1080_Rust.jpg)');
-      $('#weather-icon').html('<i class="wi wi-day-sunny"></i>');
     }
     else if(cTemp > 5){
       $('body').css('background-image','url(http://chromecastbg.alexmeub.com/images/1080_AF1QipMU0OtS_xfstOuGtznDVEweT6oeSrfp3Ojhw4Fa.jpg)');
